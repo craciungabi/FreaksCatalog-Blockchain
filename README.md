@@ -1,6 +1,7 @@
 # FreaksCatalog-Blockchain
 
-To run this project you need to install [Openzeppelin contracts]: npm install @openzeppelin/contracts
+To run this project you need to install [Openzeppelin contracts]: 
+    npm install @openzeppelin/contracts
 
  Create an ERC1155 FreakTeam-contract and ProfitSharing-contract with following functions:
  
@@ -15,5 +16,10 @@ To run this project you need to install [Openzeppelin contracts]: npm install @o
      norm ( enum Norm)          Norm: [Part time, Full time]
      score (uint)      The score represents the arithmetic mean between: [role, skill, norm, risk]
  
- displaying all freaks [ this function can be called by any freak]; 
- 
+ displaying all freaks [ this function can be called by any freak];
+ allocate profit for each freak  [this function can only be called by financial]:
+    Before this, Financial should 'approve' this contract to spend the USDC for Profit Sharing
+    Contract should interact with USDC and transfer the amount from Financial wallet to this contract.
+    interact with the Freaks smart contract and calculate the share for each freak that participated to the profit in the specified period of time (take into account freak's      startDate endDate).
+    approve each freak to withdraw the allocated amount from the Profit Sharing smart contract.
+    take into consideration that freaks might have unspent allocations. These should be added to the current allocation.
