@@ -1,10 +1,10 @@
 # FreaksCatalog-Blockchain
 
-To run this project you need to install [Openzeppelin contracts] [npm install @openzeppelin/contracts]
+To run this project you need to install [Openzeppelin contracts]: npm install @openzeppelin/contracts
 
  Create an ERC1155 FreakTeam-contract and ProfitSharing-contract with following functions:
  
-  -add, delete and modifity a freak [these functions can only be called by hr];
+  add, delete and modifity a freak [these functions can only be called by hr];
   
     Each freak should have the following attributes:
      name (string)
@@ -15,7 +15,5 @@ To run this project you need to install [Openzeppelin contracts] [npm install @o
      norm ( enum Norm)          Norm: [Part time, Full time]
      score (uint)      The score represents the arithmetic mean between: [role, skill, norm, risk]
  
- - displaying all freaks [ this function can be called by any freak];
- - 
- - 
+ displaying all freaks [ this function can be called by any freak]; 
  
