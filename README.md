@@ -17,6 +17,7 @@ To run this project you need to install [Openzeppelin contracts]:
      score (uint)      The score represents the arithmetic mean between: [role, skill, norm, risk]
  
  displaying all freaks [ this function can be called by any freak];
+ 
  allocate profit for each freak  [this function can only be called by financial]:
     Before this, Financial should 'approve' this contract to spend the USDC for Profit Sharing
     Contract should interact with USDC and transfer the amount from Financial wallet to this contract.
