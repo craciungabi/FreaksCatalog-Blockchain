@@ -1,6 +1,6 @@
 # FreaksCatalog-Blockchain
 
-To run this project you need to install [Openzeppelin contracts]
+__To run this project you need to install Openzeppelin contracts__
 
     npm install @openzeppelin/contracts
 
